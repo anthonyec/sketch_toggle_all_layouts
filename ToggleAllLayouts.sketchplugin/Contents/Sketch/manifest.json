@@ -1,0 +1,17 @@
+{
+    "name" : "Toggle All Layouts",
+    "identifier" : "com.sketchapp.anthonyec.toggle_all_layouts",
+    "version" : "1.0",
+    "description" : "One shortcut, toggle layout visablity on all artboards.",
+    "authorEmail" : "anthonycossins@gmail.com",
+    "author" : "Anthony Cossins",
+    "commands" : [
+    {
+      "script" : "toggle_all_layouts.js",
+      "handler" : "toggleAllLayouts",
+      "name" : "Toggle All Layouts",
+      "identifier" : "toggleAllLayouts",
+      "shortcut": "ctrl shift l",
+    }
+  ]
+}
